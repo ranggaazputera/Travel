@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Indonesia Travel</title>
+	<link rel="icon" href="logo/logo2.png">
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="background">
+			<div class="wrapper">
+				<div id="menu" class="menu-content">
+					<div class="header-menu">
+						<div class="logo">
+							<a href="#"><img src="logo/logo.png"></a>
+						</div>
+						<div class="menu">
+							<nav>
+								<ul>
+									<li><a href="#">Home</a></li>
+									<li><a href="#">Destinations</a></li>
+									<li><a href="#">Experience</a></li>
+									<li><a href="#">Highlights</a></li>
+									<li><a href="#">What's Happening</a></li>
+									<li><a href="#">Inspirations</a></li>
+									<li><a href="#">Calendar Of Events</a></li>
+									<li><i id="cari" class="fa fa-search" onclick="cari()"></i></li>
+									<li><i id="close" class="fa fa-close" onclick="tutup()"></i></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="search" id="search">
+							<form>
+								<input type="text" name="" placeholder="Search...">
+								<button type="submit">Search</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="header-content">
+					<div class="heading">
+						<h1>Indonesia Travel</h1>
+					</div>
+					<div class="content">
+						<p>Straddling the equator, situated between the continents of Asia<br>and Australia and between the Pacific and the Indian Oceans<br>Indonesia has many magnificent islands waiting  to be explored.</p>
+					</div>
+				</div>
+				<div class="travel">
+					<div class="button">
+						<ul>
+							<li><a href="#" id="a" onclick="f()"><i class="fa fa-plane" id="plane"></i>Flights</a></li>
+							<li><a href="#" id="b" onclick="h()"><i class="fa fa-home" id="home"></i>Hotels</a></li>
+							<li><a href="#" id="c" onclick="ca()"><i class="fa fa-car" id="car"></i>Cars</a></li>
+							<li><a href="#" id="d" onclick="cr()"><i class="fa fa-ship" id="ship"></i>Cruises</a></li>
+						</ul>
+					</div>
+					<div id="flights">
+						<div class="form">
+							<form>
+								<ul>
+									<li>
+										<label>Flying From</label><br>
+										<select>
+											<option>City or Airport</option>
+											<option>New York</option>
+											<option>Seoul</option>
+											<option>Tokyo</option>
+										</select>
+									</li>
+									<li>
+										<label>To</label><br>
+										<select>
+											<option>City or Airport</option>
+											<option>Bali</option>
+											<option>Bandung</option>
+											<option>Jakarta</option>
+										</select>
+									</li>
+									<li>
+										<label>Departing</label><br>
+										<input type="date" name="">
+									</li>
+									<li>
+										<label>Returning</label><br>
+										<input type="date" name="">
+									</li>
+									<li>
+										<label>Adult</label><br>
+										<select>
+											<option>01</option>
+											<option>02</option>
+											<option>03</option>
+											<option>04</option>
+										</select>
+									</li>
+									<li>
+										<label>Child</label><br>
+										<select>
+											<option>01</option>
+											<option>02</option>
+											<option>03</option>
+											<option>04</option>
+										</select>
+									</li>
+									<li>
+										<button type="submit">Search</button>
+									</li>
+								</ul>
+							</form>
+						</div>
+					</div>
+					<div id="hotels">
+						<div class="form">
+							<form>
+								<ul>
+									<li>
+										<label>Place Hotel</label><br>
+										<select>
+											<option>City or Airport</option>
+											<option>New York</option>
+											<option>Seoul</option>
+											<option>Tokyo</option>
+										</select>
+									</li>
+									<li>
+										<label>To</label><br>
+										<select>
+											<option>City or Airport</option>
+											<option>Bali</option>
+											<option>Bandung</option>
+											<option>Jakarta</option>
+										</select>
+									</li>
+									<li>
+										<label>Departing</label><br>
+										<input type="date" name="">
+									</li>
+									<li>
+										<label>Returning</label><br>
+										<input type="date" name="">
+									</li>
+									<li>
+										<label>Adult</label><br>
+										<select>
+											<option>01</option>
+											<option>02</option>
+											<option>03</option>
+											<option>04</option>
+										</select>
+									</li>
+									<li>
+										<label>Child</label><br>
+										<select>
+											<option>01</option>
+											<option>02</option>
+											<option>03</option>
+											<option>04</option>
+										</select>
+									</li>
+									<li>
+										<button type="submit">Search</button>
+									</li>
+								</ul>
+							</form>
+						</div>
+					</div>
+					<div id="cars">
+						<div class="form">
+							<form>
+								<ul>
+									<li>
+										<label>Place Cars</label><br>
+										<select>
+											<option>City or Airport<option>
+											<option>New York</option>
+											<option>Seoul</option>
+											<option>Tokyo</option>
+										</select>
+									</li>
+									<li>
+										<label>To</label><br>
+										<select>
+											<option>City or Airport</option>
+											<option>Bali</option>
+											<option>Bandung</option>
+											<option>Jakarta</option>
+										</select>
+									</li>
+									<li>
+										<label>Departing</label><br>
+										<input type="date" name="">
+									</li>
+									<li>
+										<label>Returning</label><br>
+										<input type="date" name="">
+									</li>
+									<li>
+										<label>Adult</label><br>
+										<select>
+											<option>01</option>
+											<option>02</option>
+											<option>03</option>
+											<option>04</option>
+										</select>
+									</li>
+									<li>
+										<label>Child</label><br>
+										<select>
+											<option>01</option>
+											<option>02</option>
+											<option>03</option>
+											<option>04</option>
+										</select>
+									</li>
+									<li>
+										<button type="submit">Search</button>
+									</li>
+								</ul>
+							</form>
+						</div>
+					</div>
+					<div id="cruises">
+						<div class="form">
+							<form>
+								<ul>
+									<li>
+										<label>Place Cruises</label><br>
+										<select>
+											<option>City or Airport</option>
+											<option>New York</option>
+											<option>Seoul</option>
+											<option>Tokyo</option>
+										</select>
+									</li>
+									<li>
+										<label>To</label><br>
+										<select>
+											<option>City or Airport</option>
+											<option>Bali</option>
+											<option>Bandung</option>
+											<option>Jakarta</option>
+										</select>
+									</li>
+									<li>
+										<label>Departing</label><br>
+										<input type="date" name="">
+									</li>
+									<li>
+										<label>Returning</label><br>
+										<input type="date" name="">
+									</li>
+									<li>
+										<label>Adult</label><br>
+										<select>
+											<option>01</option>
+											<option>02</option>
+											<option>03</option>
+											<option>04</option>
+										</select>
+									</li>
+									<li>
+										<label>Child</label><br>
+										<select>
+											<option>01</option>
+											<option>02</option>
+											<option>03</option>
+											<option>04</option>
+										</select>
+									</li>
+									<li>
+										<button type="submit">Search</button>
+									</li>
+								</ul>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="content1">
+			<div class="wrapper">
+				<div class="heading">
+					<p class="h">explore, save, and share</p>
+					<p><b>PLAN YOUR </b>dream <b>VACATION</b></p>
+				</div>
+				<div class="content">
+					<div class="col-4">
+						<div class="col1">
+							<div class="img">
+								<i class="fa fa-bicycle"></i>
+							</div>
+							<div class="heading">
+								<h3>Exclusive Package</h3>
+							</div>
+							<div class="content-col">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut laboreet dolore magna aliqua. Ut enim ad minimveniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="col2">
+							<div class="img">
+								<i class="fa fa-plane"></i>
+							</div>
+							<div class="heading">
+								<h3>Peace of Mind</h3>
+							</div>
+							<div class="content-col">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut laboreet dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="col3">
+							<div class="img">
+								<i class="fa fa-map-o"></i>
+							</div>
+							<div class="heading">
+								<h3>Best Travel Guide</h3>
+							</div>
+							<div class="content-col">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut laboreet dolore magna aliqua. Ut enim ad minimveniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content2">
+			<div class="wrapper">
+				<div class="about">
+					<div class="heading">
+						<p>why we are the best ?</p>
+					</div>
+					<div class="content">
+						<p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="button">
+						<button type="submit">Read More</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content3">
+			<div class="wrapper">
+				<div class="heading">
+					<h2>Get 10% Off On Your Next Travel</h2>
+				</div>
+				<div class="content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
+				</div>
+				<div class="button">
+					<button type="submit">Buy Now</button>
+				</div>
+			</div>
+		</div>
+		<div class="content4">
+			<div class="wrapper">
+				<div class="heading">
+					<p class="he">top destinations</p>
+					<p>The <b>BEST PLACE</b> to spend time in <b>INDONESIA</b></p>
+				</div>
+				<div class="col-3">
+					<div class="col1">
+						<div class="border">
+							<b>Raja Ampat</b>
+							<p>Papua</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="col2">
+						<div class="border">
+							<b>Bali Island</b>
+							<p>Bali</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="col3">
+						<div class="border">
+							<b>Borobudur Temple</b>
+							<p>Central Java</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="col4">
+						<div class="border">
+							<b>Komodo Island</b>
+							<p>East Nusa Tenggara</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="footer-top">
+			<div class="wrapper">
+				<div class="col-4">
+					<div class="col1">
+						<div class="img">
+							<img src="logo/logo3.png">
+						</div>
+						<div class="content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud eUt enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo irure</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="col2">
+						<div class="heading">
+							<h3>Newsletter</h3>
+						</div>
+						<div class="email">
+							<label>exercitation ullamco laboris nisi ut aliquip ex ea :</label><br>
+							<input type="text" name="" placeholder="Email Address"><br>
+							<button type="submit">submit</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="col3">
+						<div class="heading">
+							<h3>Contact Us</h3>
+						</div>
+						<div class="content">
+							<p>
+								<i class="fa fa-map-marker"></i> St. Lorem ipsum dolor sit amet
+							</p>
+							<p>
+								<i class="fa fa-phone"></i> 0123-4567-8910
+							</p>
+							<p>
+								<i class="fa fa-envelope-o"></i> travel_indonesia@gmail.com
+							</p>
+							<span><i class="fa fa-facebook" id="f"></i></span>
+							<span><i class="fa fa-twitter" id="t"></i></span>
+							<span><i class="fa fa-instagram" id="i"></i></span>
+							<span><i class="fa fa-google-plus" id="gp"></i></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="wrapper">
+				<div class="left">
+					<p>Copyright &copy; 2017 Indonesia Travel</p>
+				</div>
+				<div class="right">
+					<p>Powered By <a href="#">Rangga Az Putera</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="js/search.js"></script>
+	<script type="text/javascript" src="js/button.js"></script>
+</body>
+</html>
